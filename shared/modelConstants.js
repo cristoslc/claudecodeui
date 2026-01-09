@@ -55,11 +55,16 @@ export const CURSOR_MODELS = {
  */
 export const CODEX_MODELS = {
   OPTIONS: [
-    { value: 'gpt-5.2', label: 'GPT-5.2' },
+    { value: 'gpt-5.2-codex', label: 'GPT-5.2 Codex' },
     { value: 'gpt-5.1-codex-max', label: 'GPT-5.1 Codex Max' },
-    { value: 'o3', label: 'O3' },
-    { value: 'o4-mini', label: 'O4-mini' }
+    { value: 'gpt-5.1-codex-mini', label: 'GPT-5.1 Codex Mini' },
+    { value: 'gpt-5.2', label: 'GPT-5.2' },
+    { value: 'gpt-5.1', label: 'GPT-5.1' },
+    { value: 'gpt-5.1-codex', label: 'GPT-5.1 Codex' },
+    { value: 'gpt-5-codex', label: 'GPT-5 Codex' },
+    { value: 'gpt-5-codex-mini', label: 'GPT-5 Codex Mini' },
+    { value: 'gpt-5', label: 'GPT-5' }
   ],
 
-  DEFAULT: 'gpt-5.2'
+  DEFAULT: 'gpt-5.2-codex'
 };
